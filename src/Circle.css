@@ -1,0 +1,77 @@
+.circle_body {
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    background: white;
+    min-height: 90vh;
+    min-width: 40%;
+    margin: 0 30%;
+    padding: 0 50px;
+}
+.circle_body_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.circle_body_search > div{
+    padding: 10px 10px;
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle_body_search > div > input{
+    height: 20px;
+    padding: 15px 20px;
+    border: 0;
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+    outline: none;
+}
+.circle_body_search > div > button{
+    height: 20px;
+    padding: 15px 35px;
+    border: 0;
+    font-weight: 600;
+    font-size: 12px;
+    background: #000;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle_body_beneficiaries {
+    display: flex;
+    flex-direction: column;
+}
+.circle_body_beneficiaries > h1{
+    font-size: 13px;
+    font-weight: 900;
+    color: #26408B;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.circle_body_circle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.circle_body_circle > h1{
+    font-size: 13px;
+    font-weight: 900;
+    color: #26408B;
+    margin: 0;
+    margin-bottom: 20px;
+}
+@media all and (max-width: 600px ) {
+    .circle_body {
+        box-shadow: 0;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        padding-top: 0;
+    }
+}

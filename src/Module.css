@@ -1,0 +1,87 @@
+.module_div {
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    background: white;
+    width: 40%;
+    margin: 0 30%;
+}
+.module_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.module_body_create {
+    height: 40px;
+    width: fit-content;
+    background: #26408B;
+    color: white;
+    border: 0;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.module_body_account_default {
+    background: #26408B;
+    height: 150px;
+    width: 75%;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 20px;
+    margin: 25px 0;
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+}
+.module_body_account_default > h3{
+    font-size: 13px;
+    font-weight: 500;
+}
+.module_body_account_default > h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.module_body_account_savings {
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    background: white;
+    color: black;
+    height: 150px;
+    width: 75%;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 25px 0;
+}
+.module_body_account_savings > h3{
+    font-size: 13px;
+    font-weight: 500;
+}
+.module_body_account_savings > h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+@media all and (max-width: 600px ) {
+    .module_div {
+        box-shadow: none;
+        background: white;
+        width: 100%;
+        margin: 0;
+    }
+    .module_body {
+        box-shadow: 0;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        padding-top: 0;
+    }
+    .module_body_account_default {
+        width: 100%;
+    }
+    .module_body_account_savings {
+        box-shadow: 0.5px 0.5px 5px -1px lightgray;
+        background: white;
+        width: 100%;
+    }
+    .module_body_create {
+        width: 40%;
+    }
+}

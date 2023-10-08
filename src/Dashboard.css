@@ -1,0 +1,199 @@
+.dashboard_body {
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    background: white;
+    height: 100vh;
+    width: 40%;
+    margin: 0 30%;
+    padding: 0 50px;
+    padding-top: 10vh;
+}
+.dashboard_body_img {
+    object-fit: cover;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.dashboard_body_info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+}
+.dashboard_body_message {
+    margin: 0;
+}
+.dashboard_body_message > h1{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+.dashboard_body_message > p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.dashboard_body_account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.dashboard_body_account_default {
+    background: #26408B;
+    min-height: 200px;
+    width: 45%;
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+.dashboard_body_account_default > h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.dashboard_body_account_default > div{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.changepassword_icon {
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.dashboard_body_account_default > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #DCD6F7;
+}
+.dashboard_body_account_savings {
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    background: white;
+    color: black;
+    min-height: 200px;
+    width: 45%;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+.dashboard_body_account_savings > h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.dashboard_body_account_savings > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #DCD6F7;
+}
+.dashboard_body_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.dashboard_body_add_money {
+    height: 40px;
+    width: 30%;
+    background: #000;
+    color: white;
+    border: 0;
+    margin-right: 10px;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.dashboard_body_add_money > h3{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.dashboard_body_add_modules {
+    height: 40px;
+    width: 30%;
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    background: white;
+    color: black;
+    border: 0;
+    margin-left: 10px;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.dashboard_body_add_modules > h3 {
+    font-weight: 500;
+    font-size: 14px;
+}
+.dashboard_add_icons {
+    font-size: 22px;
+}
+.dashboard_body_transaction > h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.dashboard_body_transaction_history{
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 2.5px;
+}
+.dashboard_body_transaction_statement {
+    display: flex;
+    justify-content: center;
+}
+.dashboard_body_transaction_statement > button{
+    height: 40px;
+    width: 100%;
+    background: white;
+    color: #26408B;
+    box-shadow: 0.5px 0.5px 5px -1px lightgray;
+    border: 0;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+@media all and (max-width: 600px ) {
+    .dashboard_body {
+        box-shadow: 0;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        padding-top: 0;
+    }
+    .dashboard_body_message > h1{
+        font-size: 17px;
+    }
+    .dashboard_body_message > p {
+        font-size: 12px;
+    }
+    .dashboard_body_account {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .dashboard_body_account_default {
+        margin-right: 20px;
+        width: 150%;
+    }
+    .dashboard_body_account_savings {
+        box-shadow: 0.5px 0.5px 5px -1px lightgray;
+        background: white;
+        width: 100%;
+    }
+    .dashboard_body_add_money {
+        height: 40px;
+        width: 45%;
+    }
+    .dashboard_body_add_modules {
+        height: 40px;
+        width: 45%;
+    }
+}
