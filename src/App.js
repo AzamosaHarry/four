@@ -12,7 +12,7 @@ import More from './More';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={"https://AzamosaHarry.github.io/four"}>
         <Routes>
           <Route path='/' element={<Signin />} />
           <Route path='/signup' element={<Signup />} />
