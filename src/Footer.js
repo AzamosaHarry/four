@@ -36,7 +36,7 @@ function Footer ({ number }) {
                     <h1>More</h1>
                 </li> 
             </ul>
-            <button onClick={() => { navigate('/')}}>Log out</button>
+            <button onClick={() => { navigate('/four')}}>Log out</button>
         </div>
     )    
 }

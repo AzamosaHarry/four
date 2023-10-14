@@ -43,7 +43,7 @@ function More() {
                         </div>
                     </div>
                     <div className='more_body_logout'>
-                    <h1 onClick={() => {navigate('/')}}>Log out</h1>
+                    <h1 onClick={() => {navigate('/four')}}>Log out</h1>
                     <p>1.00.00</p>
             </div>
             </div>
