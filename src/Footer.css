@@ -90,4 +90,9 @@
     .footer_four_logo {
         display: none;
     }
+    .footer_ul > li > h1{
+        margin: 0;
+      font-weight: 500;
+        font-size: 13px;
+    }
 }
