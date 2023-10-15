@@ -14,7 +14,7 @@ function Signin() {
             <div className='signin_body'>
                 <h2>Welcome back</h2>
                 <form className="signin_form">
-                    <p className="signin_text">New to FOUR? <Link to='./four/signup' className="signin_link">sign up</Link></p>
+                    <p className="signin_text">New to FOUR? <Link to='./signup' className="signin_link">sign up</Link></p>
                     <input className='signin_input' type='email' name='email' placeholder="Email address" required autoComplete onChange={(e) => {setEmail(e.target.value)}}/>
                     <input className='signin_input'type='password' name='password' placeholder="Password"  required onChange={(e) => {setPassword(e.target.value)}}/>
                     <button className="signin_button" type='submit' onClick={() => {navigate('/dashboard')}} >Login</button>
