@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/four' element={<Signin />} />
-          <Route path='/signup' element={<Signup />} />
-          <Route path='/signup/createpassword' element={<Signup2 />} />
+          <Route path='/four/signup' element={<Signup />} />
+          <Route path='/four/signup/createpassword' element={<Signup2 />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/dashboard/pay' element={<Pay />} />
           <Route path='/dashboard/module' element={<Module />} />

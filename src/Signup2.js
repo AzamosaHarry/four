@@ -20,7 +20,7 @@ function Signup2() {
                     <label className='signup_label'>Password:</label>
                     <input className='signup_input'type='password' minLength='8' required onChange={(e) => {setPassword(e.target.value)}}/>
                         <div>
-                            <button type='submit' id='signup2_button' onClick={() => {navigate('/')}}>Register</button>
+                            <button type='submit' id='signup2_button' onClick={() => {navigate('/four')}}>Register</button>
                         </div>
                     </form>
                 </div>

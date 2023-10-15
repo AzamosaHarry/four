@@ -23,7 +23,7 @@ function Signup() {
                     <label className='signup_label'>Date of birth:</label>
                     <input className='signup_input' type='date'required onChange={(e) => {setDob(e.target.value)}}/>
                     <div>
-                        <button type='submit' onClick={() => {navigate('/signup/createpassword')}}>Proceed</button>
+                        <button type='submit' onClick={() => {navigate('/four/signup/createpassword')}}>Proceed</button>
                         <p>already have an account? <Link to='/' className='signup_link'>sign in</Link></p>
                     </div>
                 </form>
