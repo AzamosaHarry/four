@@ -196,4 +196,12 @@
         height: 40px;
         width: 45%;
     }
+    .dashboard_body_transaction > h1{
+        font-size: 15px;
+        font-weight: 500;
+        color: black;
+    }
+    .dashboard_body_message > h1{
+        font-size: 17px;
+    }
 }
